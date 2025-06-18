@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda Urbana</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#camisas">Camisas</a></li>
+      <li><a href="#pantalones">Pantalones</a></li>
+      <li><a href="#chaquetas">Chaquetas</a></li>
+      <li><a href="#accesorios">Accesorios</a></li>
+    </ul>
+    <div class="carrito-icono" id="carrito-icono">
+      🛒 <span id="carrito-contador">0</span>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Moda Urbana</h1>
+    <p>Estilo. Elegancia. Actitud.</p>
+  </header>
+
+  <section class="buscador-section">
+    <input type="text" id="buscador" placeholder="Buscar productos..." />
+  </section>
+
+  <main>
+    <section class="categoria" id="camisas">
+      <h2>Camisas</h2>
+      <div class="galeria">
+        <div class="producto" data-nombre="Camisa 1" data-descripcion="Camisa de algodón, color blanco, ideal para cualquier ocasión." data-precio="$350">
+          <img src="IMAGENES/r1.jpg" alt="Camisa 1" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Camisa 2" data-descripcion="Camisa casual azul, tela fresca y cómoda." data-precio="$370">
+          <img src="IMAGENES/r2.jpg" alt="Camisa 2" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Camisa 3" data-descripcion="Camisa estampada, perfecta para un look urbano." data-precio="$390">
+          <img src="IMAGENES/r3.jpg" alt="Camisa 3" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Camisa 4" data-descripcion="Camisa negra elegante, fácil de combinar." data-precio="$360">
+          <img src="IMAGENES/r4.jpg" alt="Camisa 4" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Camisa 5" data-descripcion="Camisa manga larga, color gris claro." data-precio="$380">
+          <img src="IMAGENES/r5.jpg" alt="Camisa 5" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Camisa 6" data-descripcion="Camisa slim fit, color vino." data-precio="$400">
+          <img src="IMAGENES/r6.jpg" alt="Camisa 6" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Camisa 7" data-descripcion="Camisa oversize, tendencia juvenil." data-precio="$410">
+          <img src="IMAGENES/r7.jpg" alt="Camisa 7" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Camisa 8" data-descripcion="Camisa de lino, ideal para verano." data-precio="$420">
+          <img src="IMAGENES/r8.jpg" alt="Camisa 8" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="categoria" id="pantalones">
+      <h2>Pantalones</h2>
+      <div class="galeria">
+        <div class="producto" data-nombre="Pantalón 1" data-descripcion="Pantalón de mezclilla clásico, azul oscuro." data-precio="$550">
+          <img src="IMAGENES/r9.jpg" alt="Pantalón 1" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Pantalón 2" data-descripcion="Jogger gris, cómodo y moderno." data-precio="$480">
+          <img src="IMAGENES/r10.jpg" alt="Pantalón 2" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Pantalón 3" data-descripcion="Pantalón cargo, múltiples bolsillos." data-precio="$600">
+          <img src="IMAGENES/r11.jpg" alt="Pantalón 3" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Pantalón 4" data-descripcion="Pantalón formal, corte slim fit." data-precio="$650">
+          <img src="IMAGENES/r12.jpg" alt="Pantalón 4" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="categoria" id="chaquetas">
+      <h2>Chaquetas</h2>
+      <div class="galeria">
+        <div class="producto" data-nombre="Chaqueta 1" data-descripcion="Chaqueta de mezclilla, resistente y a la moda." data-precio="$800">
+          <img src="IMAGENES/r13.jpg" alt="Chaqueta 1" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Chaqueta 2" data-descripcion="Chaqueta bomber, ligera y versátil." data-precio="$850">
+          <img src="IMAGENES/r14.jpg" alt="Chaqueta 2" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Chaqueta 3" data-descripcion="Chaqueta de cuero sintético, estilo rockero." data-precio="$950">
+          <img src="IMAGENES/r15.jpg" alt="Chaqueta 3" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Chaqueta 4" data-descripcion="Chaqueta impermeable, ideal para lluvia." data-precio="$900">
+          <img src="IMAGENES/r16.jpg" alt="Chaqueta 4" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="categoria" id="accesorios">
+      <h2>Accesorios</h2>
+      <div class="galeria">
+        <div class="producto" data-nombre="Accesorio 1" data-descripcion="Gorra urbana, ajustable y cómoda." data-precio="$200">
+          <img src="IMAGENES/r17.jpg" alt="Accesorio 1" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Accesorio 2" data-descripcion="Mochila casual, resistente al agua." data-precio="$350">
+          <img src="IMAGENES/r18.jpg" alt="Accesorio 2" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Accesorio 3" data-descripcion="Cinturón de piel sintética, color negro." data-precio="$180">
+          <img src="IMAGENES/r19.jpg" alt="Accesorio 3" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Accesorio 4" data-descripcion="Pulsera tejida, diseño artesanal." data-precio="$120">
+          <img src="IMAGENES/r20.jpg" alt="Accesorio 4" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Moda Urbana. Todos los derechos reservados.</p>
+    <div class="redes-sociales">
+      <a href="#" title="Instagram"><img src="IMAGENES/instagram.png" alt="Instagram"></a>
+      <a href="#" title="Facebook"><img src="IMAGENES/facebook.png" alt="Facebook"></a>
+      <a href="#" title="Twitter"><img src="IMAGENES/twitter.png" alt="Twitter"></a>
+    </div>
+  </footer>
+
+  <!-- Popup pequeño tipo submenú -->
+  <div id="popup-producto" class="popup-producto" style="display:none;">
+    <div class="popup-contenido">
+      <span class="cerrar-popup" id="cerrar-popup">&times;</span>
+      <img id="popup-img" src="" alt="" />
+      <h3 id="popup-nombre"></h3>
+      <p id="popup-descripcion"></p>
+      <p id="popup-precio"></p>
+    </div>
+  </div>
+
+  <!-- Toast de carrito -->
+  <div id="toast-carrito" class="toast-carrito"></div>
+
+  <script>
+    // Buscador
+    const buscador = document.getElementById('buscador');
+    buscador.addEventListener('input', function() {
+      const filtro = buscador.value.toLowerCase();
+      document.querySelectorAll('.producto').forEach(function(producto) {
+        const alt = producto.querySelector('img').alt.toLowerCase();
+        producto.style.display = alt.includes(filtro) ? '' : 'none';
+      });
+    });
+
+    // Popup pequeño tipo submenú
+    const popup = document.getElementById('popup-producto');
+    const popupImg = document.getElementById('popup-img');
+    const popupNombre = document.getElementById('popup-nombre');
+    const popupDescripcion = document.getElementById('popup-descripcion');
+    const popupPrecio = document.getElementById('popup-precio');
+    const cerrarPopup = document.getElementById('cerrar-popup');
+
+    document.querySelectorAll('.producto').forEach(function(producto) {
+      producto.querySelector('.btn-info').addEventListener('click', function(e) {
+        e.stopPropagation();
+        const img = producto.querySelector('img');
+        popupImg.src = img.src;
+        popupImg.alt = img.alt;
+        popupNombre.textContent = producto.getAttribute('data-nombre');
+        popupDescripcion.textContent = producto.getAttribute('data-descripcion');
+        popupPrecio.textContent = producto.getAttribute('data-precio');
+
+        // Posicionar el popup justo sobre el botón
+        const btnRect = this.getBoundingClientRect();
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const scrollLeft = window.scrollX || document.documentElement.scrollLeft;
+
+        popup.style.display = 'block';
+        popup.style.position = 'absolute';
+
+        const popupWidth = 170;
+        let left = btnRect.left + scrollLeft + btnRect.width/2 - popupWidth/2;
+        left = Math.max(left, 10);
+        const popupHeight = 120;
+        let top = btnRect.top + scrollTop - popupHeight - 8;
+        if (top < 10) {
+          top = btnRect.bottom + scrollTop + 8;
+        }
+
+        popup.style.left = left + 'px';
+        popup.style.top = top + 'px';
+      });
+    });
+
+    cerrarPopup.addEventListener('click', function() {
+      popup.style.display = 'none';
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!popup.contains(e.target)) {
+        popup.style.display = 'none';
+      }
+    });
+
+    // Carrito
+    let carrito = [];
+    const carritoContador = document.getElementById('carrito-contador');
+    const toastCarrito = document.getElementById('toast-carrito');
+
+    document.querySelectorAll('.producto').forEach(function(producto) {
+      producto.querySelector('.btn-carrito').addEventListener('click', function(e) {
+        e.stopPropagation();
+        const nombre = producto.getAttribute('data-nombre');
+        const precio = producto.getAttribute('data-precio');
+        carrito.push({nombre, precio});
+        carritoContador.textContent = carrito.length;
+        mostrarToast(`${nombre} agregado al carrito`);
+      });
+    });
+
+    function mostrarToast(mensaje) {
+      toastCarrito.textContent = mensaje;
+      toastCarrito.classList.add('mostrar');
+      setTimeout(() => {
+        toastCarrito.classList.remove('mostrar');
+      }, 1800);
+    }
+  </script>
+</body>
+</html>
