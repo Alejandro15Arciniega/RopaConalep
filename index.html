@@ -9,17 +9,21 @@
 <body>
   <nav class="navbar">
     <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#ofertas">Ofertas</a></li>
       <li><a href="#camisas">Camisas</a></li>
       <li><a href="#pantalones">Pantalones</a></li>
       <li><a href="#chaquetas">Chaquetas</a></li>
       <li><a href="#accesorios">Accesorios</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contactanos</a></li>
     </ul>
     <div class="carrito-icono" id="carrito-icono">
       🛒 <span id="carrito-contador">0</span>
     </div>
   </nav>
 
-  <header>
+  <header id="inicio">
     <h1>Moda Urbana</h1>
     <p>Estilo. Elegancia. Actitud.</p>
   </header>
@@ -29,6 +33,34 @@
   </section>
 
   <main>
+    <!-- Sección Ofertas -->
+    <section class="categoria" id="ofertas">
+      <h2>Ofertas</h2>
+      <div class="galeria">
+        <div class="producto" data-nombre="Camisa 2" data-descripcion="Camisa casual azul, tela fresca y cómoda." data-precio="$320">
+          <img src="IMAGENES/R2.jpg" alt="Camisa 2" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Pantalón 2" data-descripcion="Jogger gris, cómodo y moderno." data-precio="$430">
+          <img src="IMAGENES/R10.jpg" alt="Pantalón 2" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Chaqueta 2" data-descripcion="Chaqueta bomber, ligera y versátil." data-precio="$790">
+          <img src="IMAGENES/R14.jpg" alt="Chaqueta 2" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Accesorio 1" data-descripcion="Gorra urbana, ajustable y cómoda." data-precio="$150">
+          <img src="IMAGENES/R17.jpg" alt="Accesorio 1" class="efecto-hover">
+          <button class="btn-info">Ver más</button>
+          <button class="btn-carrito">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Camisas -->
     <section class="categoria" id="camisas">
       <h2>Camisas</h2>
       <div class="galeria">
@@ -75,6 +107,7 @@
       </div>
     </section>
 
+    <!-- Sección Pantalones -->
     <section class="categoria" id="pantalones">
       <h2>Pantalones</h2>
       <div class="galeria">
@@ -101,6 +134,7 @@
       </div>
     </section>
 
+    <!-- Sección Chaquetas -->
     <section class="categoria" id="chaquetas">
       <h2>Chaquetas</h2>
       <div class="galeria">
@@ -127,6 +161,7 @@
       </div>
     </section>
 
+    <!-- Sección Accesorios -->
     <section class="categoria" id="accesorios">
       <h2>Accesorios</h2>
       <div class="galeria">
